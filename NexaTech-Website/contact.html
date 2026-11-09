@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact - NexaTech Solutions</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <nav>
+        <a href="index.html">Back to Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+    </nav>
+
+    <!-- HEADER -->
+    <header>
+        <h1>Contact NexaTech Solutions</h1>
+
+        <p>
+            Got a question or want to learn more about our services?
+            Get in touch with us today!
+        </p>
+    </header>
+
+    <!-- CONTACT FORM -->
+    <form id="contactForm">
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <br><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <br><br>
+
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject" required>
+
+        <br><br>
+
+        <label for="service">Service of Interest:</label>
+
+        <select id="service" name="service">
+
+            <option value="custom-software">
+                Custom Software Engineering
+            </option>
+
+            <option value="web-mobile">
+                Scalable Web and Mobile Application Development
+            </option>
+
+            <option value="cloud-integration">
+                Cloud Integration and Migration
+            </option>
+
+            <option value="ai-ml">
+                Artificial Intelligence and Machine Learning
+            </option>
+
+            <option value="digital-analytics">
+                Data-Driven Digital Analytics
+            </option>
+
+        </select>
+
+        <br><br>
+
+        <label for="message">Message:</label>
+
+        <br>
+
+        <textarea id="message" name="message"
+            rows="5" cols="40" required></textarea>
+
+        <br><br>
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+    <!-- FOOTER -->
+    <footer>
+        © 2026 NexaTech Solutions. All rights reserved.
+        <br>
+        Privacy Policy | Terms of Service | Security & Compliance
+    </footer>
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+
+</body>
+</html>
